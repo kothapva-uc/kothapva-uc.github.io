@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Vivek Resume</title>  
+
+  <link href="./main.d8e0d294.css" rel="stylesheet"></head>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<body class="">
+
+<div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"></div>
+<main class="content-wrapper">
+  <header class="white-text-container section-container">
+    <div id="header-section">
+    <div id="header-section1">
+         <div id="floatright">
+                <canvas id = "analog-clock" width="150" height="150" style="background-color: #999"></canvas>
+                <script src="https://waph-uc.github.io/clock.js"></script>
+                <script type="text/javascript" crossorigin="anonymous">
+
+                  var canvas = document.getElementById("analog-clock");
+                  var ctx = canvas.getContext("2d");
+                  var radius = canvas.height / 2;
+                  ctx.translate(radius, radius);
+                  radius = radius * 0.90
+                  setInterval(drawClock, 1000);
+
+                  function drawClock() {
+                    drawFace(ctx, radius);
+                    drawNumbers(ctx, radius);
+                    drawTime(ctx, radius);
+                  }                  
+              </script>
+         </div>
+    </div>
+  </div>
+    <div class="text-center">
+      <h1>Vivek Surya Kothapalli</h1>
+      <h2>Graduate Student at University of Cincinnati</h2>
+      <i>Professional email: </i><a href="mailto:kothapva@mail.uc.edu"><span>kothapva@mail.uc.edu</span></a>
+      <i>Personal email: </i><a href="mailto:viveksuryak@gmail.com"><span>viveksuryak@gmail.com</span></a>
+      <i>Phone number: +1 (513) 123-4567</i>
+    </div>
+
+  </header>
+ 
+ <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+
+        <div class="card">
+          <div class="card-block">
+            <h2>About me</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p>
+              </div>
+              <div class="col-md-8">
+              <p> I'm a tech enthusiast thriving to have a greater understanding and to improve my technical knowledge by continual learning to solve real-world problems using what I have acquired. I would like to flourish in my career by learning more about Information Technology and expand my knowledge.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Work</h2>
+            <div class="work-experience">
+              <small class="date">September 2021 – July 2023</small>
+              <h3 class="h5 date-title">Packaged App Development Associate</h3>
+              <h3 class="h5 date-title">Accenture Solutions Pvt Ltd, Hyderabad, India</h3>
+              <p>
+                Built APIs by following API led approach to integrate global health care client’s existing customer and product data from ETL setup into a Salesforce, which enhanced the customers’ service experience.
+              </p>
+              <p> Analyzed and optimized existing SQL queries, improving effectiveness by 20% and created new queries as per the requirement. </p>
+              Developed APIs which integrated salesforce and AWS by mapping huge data from salesforce into a document and uploading into AWS. </p>
+              <p>Interacted directly with SMEs to gather and translate business requirements into technical and functional design documents. </p>
+            </div>
+
+            <div class="work-experience">
+              <small class="date">April 2021 – July 2021</small>
+              <h3 class="h5 date-title">Application Developer Intern</h3>
+              <h3 class="h5 date-title">Cognizant Technology Solutions, Hyderabad, India</h3>
+              
+              <p>Gained understanding of Waterfall and Agile methodology of software development life cycle (SDLC).</p>
+              <p>Created normalized tables from relational schema, obtained after translating requirements into ER diagrams.</p>
+              <p>Build Retail store management system, an e-commerce web application using C#, .NET framework and MySQL database.</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Education</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2023 - Currently pursuing</small>
+                  <h3 class="h5 date-title">Master of Science in Information technology</h3>
+                  <p>University of Cincinnati, Cincinnati, Ohio, USA</p>
+                  <p class="h5 date-title">CGPA - 4.0/4.0</p>
+                </div>
+                
+              </div>
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2017 - 2021</small>
+                  <h3 class="h5 date-title">Bachelor of Technology in Electronics and Communication Engineering</h3>
+                  <p>Vardhaman College of Engineering, Hyderabad, Telangana, India</p>
+                  <p class="h5 date-title">CGPA - 3.8/4.0</p>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Projects</h2>
+            <h3 class="h5">1. Voice controlled home automation system using Google assistant</h3>
+            <h3 class="h5">2. E-commerce website</h3>
+            </div>
+          </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Certifications</h2>
+            <h3 class="h5">1. Programming for Everybody (Getting Started with Python)</h3>
+            <h3 class="h5">2. Python Data Structures</h3>
+            <h3 class="h5">3. Introduction to the Internet of Things and Embedded Systems</h3>
+            <h3 class="h5">4. Python by Hacker rank</h3>
+            <h3 class="h5">5. MuleSoft Certified Developer level 1</h3>
+            </div>
+          </div>
+
+          <div class="card">
+          <div class="card-block">
+            <h2>WAPH - Project 1 Contents</h2>
+            <div id ="digit-clock"></div>
+            <div id ="email" onclick="showhideEmail()">Show my email</div>
+            <div class="h5">1. <a href=./waph.html target="_blank"><span>Course info</span></a></div>
+
+            <div class="h5">2. The following APIs are integrated into this web page </div>
+                
+            <h5>Enter your age:</h5> <input id="age" type="text" name="data"> <input type="button" value="Guess age" onclick="guessAge(document.getElementById('age').value)">
+
+          <div>
+            Click to find some activity when you are bored <input type="button" value="Activity finder" onclick="bored()">
+            <h5>Enter a number between 1-100:</h5> <input id="dogs" type="text" name="data"> <input type="button" value="dogs" onclick="dogs(document.getElementById('dogs').value)">
+          </div>
+
+          <div id = "response"></div>
+            
+            </div>
+          </div>
+          </div>
+        </div>
+     </div>
+   </div>
+ </div>
+
+</main>
+
+<script>
+
+  function printResult(result){
+      $("#response").html(result);
+      }
+
+  function joke(){
+      $.get("https://v2.jokeapi.dev/joke/Programming?type=single",function(result){
+        $("#response").html("A funny statement about programming: " +result.joke);
+    });
+      } 
+      setInterval(joke,60000); 
+
+  function bored(){
+      $.get("https://www.boredapi.com/api/activity",function(result){
+        $("#response").html("If you are bored! You can " +result.activity);
+    });
+      }  
+
+  function dogs(number){
+      $.get("http://shibe.online/api/shibes?count=100&urls=true&httpsUrls=false",function(result){
+        console.log(result)
+        let imagesContainer = $("#response");
+                imagesContainer.empty(); // Clear previous images
+
+        let imageElement = $("<img>").attr("src", result[number - 1]).attr("height", "200").attr("width","300");
+                    imagesContainer.append(imageElement);
+    });
+      }  
+
+      
+
+  async function guessAge(name){
+      const response= await fetch("https://api.agify.io/?name="+name);
+      const result= await response.json();
+      if(result.age == null){
+        result.age = name.length * 4 + 5;
+      }
+      $("#response").html("Hello "+name+", your age should be "+result.age);
+    }
+
+      function setLastVisitStorage() {
+        var now = new Date();
+        var lastVisit = localStorage.getItem("lastVisit");
+
+        if (!lastVisit) {
+            localStorage.setItem("lastVisit", now.toISOString());
+            alert("Welcome to my homepage!");
+        } else {
+            var lastVisitDate = new Date(lastVisit);
+            alert("Welcome back! Your last visit was on " + lastVisitDate);
+        }
+    }
+
+      setLastVisitStorage();
+
+      function displayTime() {
+          document.getElementById('digit-clock').innerHTML="Current time:"+new Date();
+        }
+        setInterval(displayTime,500);
+
+
+      var shown = false;
+      function showhideEmail(){
+        if (shown){
+          document.getElementById("email").innerHTML= "Show my email";
+          shown=false;
+        }
+        else{
+          var myemail= "<a href='mailto:kothapva" + "@" + "mail.uc.edu'>kothapva" +
+                              "@" + "mail.uc.edu</a>";
+          document.getElementById("email").innerHTML= myemail;
+          shown = true;
+        }
+      }
+    
+</script>
+
+</body>
+
+</html>
