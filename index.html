@@ -196,7 +196,7 @@
       }  
 
   function dogs(number){
-      $.get("http://shibe.online/api/shibes?count=100&urls=true&httpsUrls=false",function(result){
+      $.get("http://shibe.online/api/shibes?count=100&urls=true&httpsUrls=true",function(result){
         console.log(result)
         let imagesContainer = $("#response");
                 imagesContainer.empty(); // Clear previous images
