@@ -1,5 +1,5 @@
 Vivek Surya Kothapalli
 
-![My HeadShot](./assets/images/img-01.jpg width="200" height="400")
+![My HeadShot](./assets/images/img-01.jpg)
 
 Welcome to my Portfolio Website.
